@@ -129,7 +129,7 @@ Four trust boundaries define where data crosses between zones of different privi
 | TB4: App/Data Layer | Orchestrator and Ingestion Pipeline ↔ Vector DB and Document Store |
 
 The full Data Flow Diagram with all labeled flows is provided as a companion document
-(`DFD.md`).
+([DFD.md](DFD.md)).
 
 ### 3.3 Why This Approach Will Succeed
 
@@ -182,7 +182,7 @@ threats across the RAG pipeline.
 
 **Outcome:** Both delivered. The Data Flow Diagram documents all eight components,
 sixteen labeled data flows, and four trust boundaries across both the query and ingestion
-pipelines. It is provided as a rendered Mermaid flowchart in `DFD.md`.
+pipelines. It is provided as a rendered Mermaid flowchart in [DFD.md](DFD.md).
 
 The Top 10 threat list, produced from an initial pass of the STRIDE [1] analysis, identified
 the highest-priority threats by exploitability and potential impact:
@@ -205,7 +205,7 @@ the highest-priority threats by exploitability and potential impact:
 **Success Criterion:** A completed Threat Traceability Matrix where 100% of identified threats are
 mapped to at least one specific, actionable technical mitigation.
 
-**Outcome:** Delivered. The full matrix (`Threat_Traceability_Matrix.md`) maps
+**Outcome:** Delivered. The full matrix ([Threat_Traceability_Matrix.md](Threat_Traceability_Matrix.md)) maps
 **48 threats**, six per component across all eight components, to specific mitigations
 with risk ratings and mitigation types. Coverage is 100%.
 
@@ -258,7 +258,7 @@ that hardens the system prompt and deploys output filtering, but neglects the in
 ### 4.4 Validation — Tabletop Exercise
 
 Two tabletop exercise scenarios were conducted to validate that the threat model
-accurately represents exploitable attack paths (full documentation in `Tabletop_Exercise.md`).
+accurately represents exploitable attack paths (full documentation in [Tabletop_Exercise.md](Tabletop_Exercise.md)).
 
 **Scenario 1 — The Poisoned Policy Document**
 A malicious insider embeds a prompt injection payload [4] in a legitimate-looking HR policy
@@ -326,8 +326,8 @@ This semester project is the applied analysis branch of the Capstone Project, wh
 
 | Deliverable | File | Description |
 |---|---|---|
-| Data Flow Diagram | `DFD.md` | Reference Architecture with components, flows, and trust boundaries |
-| STRIDE Analysis | `STRIDE_Analysis.md` | Full 48-threat enumeration with ATLAS mappings |
-| Threat Traceability Matrix | `Threat_Traceability_Matrix.md` | All threats mapped to specific mitigations with risk ratings |
-| Tabletop Exercise | `Tabletop_Exercise.md` | Two attack scenarios validating the threat model |
+| Data Flow Diagram | [DFD.md](DFD.md) | Reference Architecture with components, flows, and trust boundaries |
+| STRIDE Analysis | [STRIDE_Analysis.md](STRIDE_Analysis.md) | Full 48-threat enumeration with ATLAS mappings |
+| Threat Traceability Matrix | [Threat_Traceability_Matrix.md](Threat_Traceability_Matrix.md) | All threats mapped to specific mitigations with risk ratings |
+| Tabletop Exercise | [Tabletop_Exercise.md](Tabletop_Exercise.md) | Two attack scenarios validating the threat model |
 | Final Report | `Final_Report.md` | This document |
